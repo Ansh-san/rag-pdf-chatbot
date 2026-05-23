@@ -1,0 +1,7 @@
+
+groq
+chromadb
+pymupdf
+sentence-transformers
+streamlit
+pyngrok

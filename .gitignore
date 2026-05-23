@@ -1,0 +1,8 @@
+
+__pycache__/
+*.pyc
+.env
+vectorstore/
+sample_docs/
+*.pdf
+.ipynb_checkpoints/
