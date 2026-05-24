@@ -8,6 +8,9 @@
 ## 🚀 Live Demo
 [Click here to try it →](#) <!-- add your ngrok/deployed link -->
 
+![Demo](demo.png)
+
+![Demo](demo2.png)
 ---
 
 ## 💡 What It Does
