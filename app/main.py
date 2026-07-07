@@ -1,5 +1,12 @@
 import streamlit as st
 import uuid
+import sys
+import os
+
+# Add the repo root (parent of this app/ folder) to the path so `src` can be
+# found no matter where this file is run from — local machine, Colab, or
+# Streamlit Community Cloud. This replaces the old hardcoded Colab-only path.
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.pdf_loader import load_and_split
 from src.embedder import create_vectorstore, retrieve
