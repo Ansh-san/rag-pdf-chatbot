@@ -1,4 +1,3 @@
-
 import fitz  # PyMuPDF
 
 def load_and_split(pdf_path, chunk_size=500, overlap=50):
