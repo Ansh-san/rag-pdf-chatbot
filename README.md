@@ -1,5 +1,5 @@
 <div align="center"> 
-
+ 
 # 📄💬 RAG PDF Chatbot
 
 ### Chat with any PDF — in plain English, grounded entirely in the document itself.
