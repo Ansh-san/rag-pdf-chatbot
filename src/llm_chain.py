@@ -41,5 +41,5 @@ Answer:"""
         )
         return response.choices[0].message.content
     except Exception as e:
-        # Surface a readable message in the chat UI instead of an unhandled crash
+
         return f"⚠️ Error contacting Groq API: {e}"
